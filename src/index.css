@@ -1,0 +1,39 @@
+:root {
+  --Dark-Violet: #2d2640;
+  --Grayish-Blue: hsl(216, 30%, 68%);
+
+  --Very-Dark-Violet: hsl(270, 9%, 17%);
+  --Dark-Grayish-Violet: #837d87;
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.headings {
+  font-family: 'DM Serif Display', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+
+  font-family: 'Karla', sans-serif;
+
+}
+
+.btn_hero {
+  margin: 0 auto !important;
+  border: 2px solid white !important;
+  background-color: #2d2640;
+}

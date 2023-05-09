@@ -1,0 +1,30 @@
+nav{
+    background-color:hsl(0, 0%, 98%);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 10%;
+
+
+}
+.Logo{
+    align-items: center;
+}
+.nav_links ul{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.nav_links ul li{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 10px 20px ;
+}
+.btn{
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 2px solid black;
+}

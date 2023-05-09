@@ -1,0 +1,51 @@
+.intro{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:  hsl(256, 26%, 20%);
+    color:  hsl(0, 0%, 98%);
+    height: 70vh;
+    padding-left: 10%;
+    position: relative;
+    padding-right: 10%;
+}
+.text{
+    width: 50%;
+}
+.text-padding{
+    padding-left: 10%;
+    /* padding-right: 10%; */
+}
+
+.text-padding h1{
+    font-family:'DM Serif Display', serif; 
+    line-height: 0.9;
+    font-size: 4.5rem;
+    font-weight: 400;
+   
+}
+.text-padding p {
+   line-height: 1.5;
+    padding: 32px 10px 32px 1px;
+}
+.intro .images{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    height: 500px;
+}
+/* .intro .images {
+ width: 50%;
+ 
+} */
+.images img{
+   height: 100%;
+   width: 100%;
+}
+.text-padding  .btn{
+    background-color:  hsl(256, 26%, 20%);
+    color:  hsl(0, 0%, 98%);
+
+    border: 2px solid  hsl(0, 0%, 98%);
+}
